@@ -30,7 +30,7 @@ The menu offers the following options:
 ---
 
 
-## Usage
+## Usage:
 
 1. Save the script to a file, e.g., `system_info.sh`.
 2. Make the script executable: `chmod +x system_info.sh`.
@@ -41,7 +41,7 @@ The menu offers the following options:
 ---
 
 
-## Script Explanation
+## Script Explanation:
 
 The script uses a `while` loop to keep displaying the menu and processing user input until the user chooses to exit. Here's an explanation of key parts of the script:
 
@@ -55,7 +55,7 @@ The script uses a `while` loop to keep displaying the menu and processing user i
 ---
 
 
-## Example Usage
+## Example Usage:
 
 ```bash
 $ ./system_info.sh
@@ -78,17 +78,7 @@ Linux ip-172-31-46-82 6.2.0-1010-aws #10~22.04.1-Ubuntu SMP Wed Aug 16 18:00:32 
 ---
 
 
-## Error Handling
-The script includes error handling for the following scenarios:
-
-If the user enters an invalid choice (not a number between 0 and 11), it displays an error message and allows the user to try again.
-If the user chooses option 0 to exit, the script displays a goodbye message and exits the menu.
-
-
----
-
-
-## Optimization
+## Optimization:
 
 While the provided script is functional and serves its purpose well, there are opportunities for optimization and further development:
 
@@ -96,7 +86,10 @@ While the provided script is functional and serves its purpose well, there are o
    -  Currently, the script checks for an invalid choice and displays an error message. However, it does not handle non-numeric inputs or inputs outside the specified range. Adding input validation to ensure that the user enters a valid number would improve user experience.
    
 ### 2. Error Handling
-   -  While the script handles invalid choices and exiting gracefully, it could benefit from more detailed error messages. For example, if a user selects an option that requires superuser privileges, a message explaining this could be added.
+   -  While the script includes error handling for the following certain scenarios,
+     (**If the user enters an invalid choice (not a number between 0 and 11), it displays an error message and allows the user to try again.
+     If the user chooses option 0 to exit, the script displays a goodbye message and exits the menu**)
+it could benefit from more detailed error messages. For example, if a user selects an option that requires superuser privileges, a message explaining this could be added.
 
 ### 3. Extending System Information
    - The script provides basic system information. Depending on the use case, you might consider extending it to provide more detailed or customized system data.
