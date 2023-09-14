@@ -1,10 +1,15 @@
 # Bash Script for Displaying System Information
 
-## Purpose
+
+## Purpose:
 
 The purpose of this Bash script is to provide a menu-based interface for users to retrieve various system information on a Unix-like system. Users can choose from a list of options, and the script will display the relevant system information based on their selection. This script serves as a tool for quickly checking essential system details, making it useful for both educational purposes and practical system administration tasks.
 
-## System Information Menu
+
+---
+
+
+## System Information Menu:
 
 The menu offers the following options:
 
