@@ -26,12 +26,20 @@ The menu offers the following options:
 11. **Currently running processes**: Lists the currently running processes.
 0. **Exit**: Allows the user to exit the script.
 
+
+---
+
+
 ## Usage
 
 1. Save the script to a file, e.g., `system_info.sh`.
 2. Make the script executable: `chmod +x system_info.sh`.
 3. Run the script: `./system_info.sh`.
 4. Choose a menu option by entering a number between 0 and 11.
+
+
+---
+
 
 ## Script Explanation
 
@@ -42,6 +50,10 @@ The script uses a `while` loop to keep displaying the menu and processing user i
 - A `case` statement is used to perform different actions based on the user's choice.
 - Each menu option corresponds to a specific command or set of commands for retrieving system information.
 - The script includes error handling for invalid choices.
+
+
+---
+
 
 ## Example Usage
 
