@@ -104,5 +104,5 @@ it could benefit from more detailed error messages. For example, if a user selec
 
 ---
 
-## Conclusion
+## Conclusion:
 This Bash script provides a user-friendly way to access various system information. It can be a useful tool for users and system administrators to quickly retrieve important details about their system.
