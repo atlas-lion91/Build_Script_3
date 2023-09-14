@@ -1,7 +1,6 @@
 #!/bin/bash
 
 
-
 #######################################################################
 # Provide a menu for users about what information they want to check
 
@@ -30,6 +29,7 @@
 while true; do
     # Display the menu
     echo "System Information Menu:"
+    
     echo "1. Currently logged users"
     echo "2. Your shell directory"
     echo "3. Home Directory"
@@ -44,7 +44,7 @@ while true; do
     echo "0. Exit"
 
     # Prompt the user for their choice and store it in the 'choice' variable
-    read -p "Enter your choice (0-11): " choice
+    read -p "Select an option (0-11): " choice
 
     # Use a case statement to perform actions based on the user's choice
     case $choice in
@@ -94,7 +94,7 @@ while true; do
             ;;
         0)
             # If the user chooses 0, exit the script with a goodbye message
-            echo "Exiting the script. Goodbye!"
+            echo "Exiting the menu. Goodbye!"
             exit 0
             ;;
         *)
