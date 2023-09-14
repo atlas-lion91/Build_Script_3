@@ -74,8 +74,7 @@ System Information Menu:
 0. Exit
 Enter your choice (0-11): 4
 Linux ip-172-31-46-82 6.2.0-1010-aws #10~22.04.1-Ubuntu SMP Wed Aug 16 18:00:32 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
-
-
+```
 ---
 
 
@@ -94,20 +93,20 @@ If the user chooses option 0 to exit, the script displays a goodbye message and 
 While the provided script is functional and serves its purpose well, there are opportunities for optimization and further development:
 
 ### 1. User Input Validation
-   - **Enhancement Opportunity:** Currently, the script checks for an invalid choice and displays an error message. However, it does not handle non-numeric inputs or inputs outside the specified range. Adding input validation to ensure that the user enters a valid number would improve user experience.
+   -  Currently, the script checks for an invalid choice and displays an error message. However, it does not handle non-numeric inputs or inputs outside the specified range. Adding input validation to ensure that the user enters a valid number would improve user experience.
    
 ### 2. Error Handling
-   - **Enhancement Opportunity:** While the script handles invalid choices and exiting gracefully, it could benefit from more detailed error messages. For example, if a user selects an option that requires superuser privileges, a message explaining this could be added.
+   -  While the script handles invalid choices and exiting gracefully, it could benefit from more detailed error messages. For example, if a user selects an option that requires superuser privileges, a message explaining this could be added.
 
 ### 3. Extending System Information
-   - **Enhancement Opportunity:** The script provides basic system information. Depending on the use case, you might consider extending it to provide more detailed or customized system data.
+   - The script provides basic system information. Depending on the use case, you might consider extending it to provide more detailed or customized system data.
 
 ### 4. Script Usability
-   - **Enhancement Opportunity:**  The script could be more user-friendly by adding an option to display a brief description of each menu item before the user makes a selection. This can help users understand the purpose of each option better.
+   - The script could be more user-friendly by adding an option to display a brief description of each menu item before the user makes a selection. This can help users understand the purpose of each option better.
 
 
 ### 5. Error Handling and Logging
-   - **Optimization Opportunity:** Implementing more advanced error handling and logging mechanisms could be beneficial, especially for system administration tasks. This would enable better tracking of issues and diagnostics.
+   - Implementing more advanced error handling and logging mechanisms could be beneficial, especially for system administration tasks. This would enable better tracking of issues and diagnostics.
 
 
 ---
